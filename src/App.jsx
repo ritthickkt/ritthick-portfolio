@@ -1,4 +1,18 @@
 import './App.css'
+import linkedIn from '../src/assets/linkedin.png'
+import instagram from '../src/assets/instagram.png'
+import github from '../src/assets/github.png'
+import react from '../src/assets/react.png'
+import vite from '../src/assets/vite.png'
+import javascript from '../src/assets/javascript.png'
+import css from '../src/assets/css.png'
+import html from '../src/assets/html.png'
+import c from '../src/assets/c.png'
+import python from '../src/assets/python.png'
+import typescript from '../src/assets/typescript.png'
+import nextjs from '../src/assets/nextjs.png'
+import expo from '../src/assets/expo.png'
+import tailwindcss from '../src/assets/tailwindcss.png'
 
 
 function App() {
@@ -8,13 +22,13 @@ function App() {
       <div className="Navbar">
         <div className="SocialMedia">
           <div className="App2">
-            <a href="https://www.linkedin.com/in/ritthick-thiaga/"><img src='../src/assets/linkedin.png' width={50} height={50} /></a>
+            <a href="https://www.linkedin.com/in/ritthick-thiaga/"><img src={linkedIn} width={50} height={50} /></a>
           </div>
           <div className="App2">
-            <a href="https://www.instagram.com/ritthickthiaga/"><img src='../src/assets/instagram.png' width={50} height={50} /></a>
+            <a href="https://www.instagram.com/ritthickthiaga/"><img src={instagram} width={50} height={50} /></a>
           </div>
           <div className="App2">
-            <a href="https://github.com/ritthickkt"><img src='../src/assets/github.png' width={50} height={50} /></a>
+            <a href="https://github.com/ritthickkt"><img src={github} width={50} height={50} /></a>
           </div>
         </div>
       </div>
@@ -36,7 +50,7 @@ function App() {
           . Scroll down to find more about me and what I do. 
         </div>
       </div>
-      <div className="Title">
+      <div className="Title"> 
         Based in Sydney.
       </div>
       <div className="Secondtitle">
@@ -44,42 +58,42 @@ function App() {
       </div>
       <div className="Apps">
         <div className="App">
-          <img src='../src/assets/react.png' width={100} height={100} />  
+          <img src={react} width={100} height={100} />  
         </div>
         <div className="App">
-          <img src='../src/assets/vite.png' width={100} height={100}/>
+          <img src={vite} width={100} height={100}/>
         </div>
         <div className="App">
-          <img src='../src/assets/javascript.png' width={100} height={100}/>
+          <img src={javascript} width={100} height={100}/>
         </div>
         <div className="App">
-          <img src='../src/assets/css.png' width={100} height={100}/>
+          <img src={css} width={100} height={100}/>
         </div>
         <div className="App">
-          <img src='../src/assets/html.png' width={100} height={100}/>
+          <img src={html} width={100} height={100}/>
         </div>
         <div className="App">
-          <img src='../src/assets/c.png' width={100} height={100}/>
+          <img src={c} width={100} height={100}/>
         </div>
         <div className="App">
-          <img src='../src/assets/github.png' width={100} height={100}/>
+          <img src={github} width={100} height={100}/>
         </div>
       </div>
       <div className="Apps">
         <div className="App">
-          <img src='../src/assets/python.png' width={100} height={100} />  
+          <img src={python} width={100} height={100} />  
         </div>
         <div className="App">
-          <img src='../src/assets/typescript.png' width={100} height={100}/>
+          <img src={typescript} width={100} height={100}/>
         </div>
         <div className="App">
-          <img src='../src/assets/nextjs.png' width={100} height={100}/>
+          <img src={nextjs} width={100} height={100}/>
         </div>
         <div className="App">
-          <img src='../src/assets/expo.png' width={100} height={100}/>
+          <img src={expo} width={100} height={100}/>
         </div>
         <div className="App">
-          <img src='../src/assets/tailwindcss.png' width={100} height={100}/>
+          <img src={tailwindcss} width={100} height={100}/>
         </div>
       </div>
       <div className="Thirdtitle">

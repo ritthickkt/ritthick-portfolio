@@ -120,6 +120,13 @@ strong {
   animation-duration: 1s;
 }
 
+.pfp {
+  position: absolute;
+  left: 50px;
+  top: 30px;
+  border-radius: 700px;
+}
+
 .Slogan {
   font-size: 20px;
 }
@@ -137,6 +144,34 @@ strong {
   display: flex;
   animation-name: fadeIn;
   animation-duration: 3s;
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;   /* removes underline */
+  color: inherit;          /* makes link color same as parent, optional */
+}
+
+a:visited {
+  color: inherit;          /* or set to your desired color */
+  text-decoration: none;
+}
+
+.CV {
+  position: absolute;
+  right: 50px;
+  border: 2px solid white;
+  border-radius: 50px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  transition: ease 0.3s;
+  font-family: 'Montserrat';
+}
+
+.CV:hover {
+  transform: scale(1.05);
 }
 
 .LinkedIn {

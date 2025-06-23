@@ -13,13 +13,13 @@ import typescript from '/src/assets/typescript.png'
 import nextjs from '/src/assets/nextjs.png'
 import expo from '/src/assets/expo.png'
 import tailwindcss from '/src/assets/tailwindcss.png'
-
+import pfp from '/src/assets/pfp.png'
 
 function App() {
-
   return (
     <>
       <div className="Navbar">
+        <img className="pfp" src={pfp} width={100} height={100}/>
         <div className="SocialMedia">
           <div className="App2">
             <a href="https://www.linkedin.com/in/ritthick-thiaga/"><img src={linkedIn} width={50} height={50} /></a>
@@ -31,6 +31,9 @@ function App() {
             <a href="https://github.com/ritthickkt"><img src={github} width={50} height={50} /></a>
           </div>
         </div>
+        <a className="CV" href="/RitthickThiaga.pdf">
+            Curriculum Vitae | CV
+        </a>
       </div>
       <div className="Intro">
         <div className="Hi">

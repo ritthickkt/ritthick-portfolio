@@ -14,6 +14,7 @@ import nextjs from '/src/assets/nextjs.png'
 import expo from '/src/assets/expo.png'
 import tailwindcss from '/src/assets/tailwindcss.png'
 import pfp from '/src/assets/pfp.png'
+import typing from '/src/assets/typing.png'
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
             <a href="https://github.com/ritthickkt"><img src={github} width={50} height={50} /></a>
           </div>
         </div>
-        <a className="CV" href="/RitthickThiaga.pdf">
+        <a className="CV" href={'https://ritthickkt.github.io/ritthick-portfolio/resume.pdf'} download="RitthickThiaga.pdf">
             Curriculum Vitae | CV
         </a>
       </div>
@@ -138,6 +139,19 @@ profiling high-risk contracts.</li>
       </div>
       <div className='FourthTitle'>
         Projects
+      </div>
+      <div 
+        className="Project"
+        onClick={() => window.open("https://github.com/ritthickkt/Typing-Speed-Test", "_blank")}
+        style={{ cursor: "pointer" }}
+      >
+        <img className="typingImage" src={typing} width={600} height={400}/>
+        <div className="ProjectTitle">
+          <div>Typing Speed Checker</div>
+        </div>
+        <div className="ExperienceDescription">
+          Simple Typing Speed Checker built with React and Vite. It allows users to test their typing speed and accuracy by typing a given text within a time limit.
+        </div>
       </div>
     </>
   )
